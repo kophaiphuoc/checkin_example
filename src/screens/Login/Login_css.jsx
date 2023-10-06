@@ -1,0 +1,102 @@
+import { StyleSheet } from 'react-native'
+import Index  from '../../themes/index'
+
+const styles = StyleSheet.create({
+    Txtversion:{
+        color:'blue'
+    },
+    Vversion:{
+        display:'flex',
+        height:'20%',
+        width:'100%',
+        flexDirection:'row',
+        justifyContent:'space-between',
+        alignItems:'flex-end',
+        paddingLeft:10,
+        paddingBottom:10
+    },
+    container:{
+        width:'100%',
+        height:'100%',
+        alignItems:'center',
+        padding:10
+    },
+    Vlogo:{
+        width:'80%',
+        height:170,
+    },
+    imglogo:{
+        width:'100%',
+        height:'100%',
+        resizeMode:'stretch'
+    },
+    Vtext:{
+        width:'100%',
+        height:100,
+        justifyContent:'center'
+    },
+    txtWellcome:{
+        textAlign:'center',
+        fontSize:Index.Sizes.TEXT_SIZE_LARGE,
+        color:Index.Colors.BLUE_LIGHT,
+        fontFamily:Index.Fonts.FONT_REGULAR
+    },
+    VinputLogin:{
+        width:'100%',
+        height:160,
+        marginTop:20,
+        justifyContent:'space-evenly'
+    },
+    inputLogin:{
+        color:Index.Colors.BLACK_TEXT,
+        fontSize:Index.Sizes.TEXT_SIZE_SMALL
+    },
+    imgIcon:{
+        width:24,
+        height:24
+    },
+    checkboxLogin:{
+        marginLeft:10,
+        marginTop:10
+    },
+    Vbtnlogin:{
+        width:'60%',
+        marginTop:30
+    },
+    btnlogin:{
+        backgroundColor:Index.Colors.BLUE_LIGHT,
+        borderRadius:10,
+        height:50,
+    },
+    txtLogin:{
+        textAlign:'center',
+        lineHeight:50,
+        fontSize:Index.Sizes.TEXT_SIZE_MIDLE,
+        color:'white',
+        fontWeight:'500'
+    },
+    Vregister:{
+        display:'flex',
+        flexDirection:'row',
+        width:'68%',
+        height:50,
+        textAlign:'center',
+        alignItems:'center',
+        justifyContent:'space-around',
+        marginTop:20
+    },
+    txtLogin1:{
+        fontSize:Index.Sizes.TEXT_SIZE_SMALL
+    },
+    txtLogin2:{
+        fontSize:Index.Sizes.TEXT_SIZE_SMALL,
+        color:Index.Colors.BLUE_LIGHT
+    },
+    loadding: {
+        height:30,
+        justifyContent: 'center',
+        alignItems: 'center'
+      },
+})
+
+export default styles
